@@ -12,7 +12,7 @@ header {
     color: rgb(150, 4, 4);
 }
 
-section {
+.chamada {
     background: rgb(150, 4, 4);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -30,4 +30,14 @@ h1{
 
 p{
     font-size: 20px;
+}
+
+img {
+    height: 200px;
+}
+
+.categoria-videos {
+    display:flex;
+    overflow: auto;
+    gap: 10px;
 }
