@@ -25,19 +25,30 @@ header {
     margin-right: 5%;
 }
 h1{
-    font-size: 40px;
+    font-size: 80px;
 }
 
 p{
-    font-size: 20px;
-}
-
-img {
-    height: 200px;
+    font-size: 40px;
 }
 
 .categoria-videos {
     display:flex;
     overflow: auto;
     gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 5px solid rgb(150, 4, 4);
 }
